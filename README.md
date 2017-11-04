@@ -1,9 +1,9 @@
-== 生成省市区JSON的工具
+# 生成省市区JSON的工具
 
 感谢  https://github.com/crazyandcoder/citypicker  这个项目．
 作者 crazyandcoder 问我生成　省市区 json 的方法，所以有了本项目．
 
-# 安装
+## 安装
 
 这是个最典型的rails项目，需要：
 
@@ -60,8 +60,13 @@ http://localhost:3000/interface/areas/area_data
 
 直接修改里面即可．
 
-app/model/province.rb 　对应了　provinces 表
-app/model/city.rb 　对应了　cities 表
-app/model/town.rb 　对应了　towns 表
+- app/model/province.rb 　对应了　provinces 表
+- app/model/city.rb 　对应了　cities 表
+- app/model/town.rb 　对应了　towns 表
+
+## 生成的JSON
+
+是直接显示在浏览器上的．
+需要　查看源文件，然后复制到新的JSON中即可．
 
 
