@@ -53,3 +53,15 @@ http://localhost:3000/interface/areas/area_data
 ```
 
 建议浏览器端安装：  jsonview, chrome插件．
+
+## 修改文件的说明
+
+核心的文件是　app/controllers/interface/areas_controller.rb
+
+直接修改里面即可．
+
+app/model/province.rb 　对应了　provinces 表
+app/model/city.rb 　对应了　cities 表
+app/model/town.rb 　对应了　towns 表
+
+
